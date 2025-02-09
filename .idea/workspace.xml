@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28a30894-63ba-4b90-b42a-3a0df9954037" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/abdel/AlloyDBOmniMLExtensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/abdel/AlloyDBOmniContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/abdel/AlloyDBOmniContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/abdel/AlloyDBOmniContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/abdel/AlloyDBOmniContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,8 +45,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.AlloyDBOmniContainerTest.test.executor": "Run",
+    "JUnit.AlloyDBOmniMLExtensions.executor": "Debug",
+    "JUnit.AlloyDBOmniMLExtensions.testMlExtensions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20250208_0001",
+    "com.google.cloudcode.ide_session_index": "20250208_0003",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/abdelfettah/data/code/testcontainers-alloydb/pom.xml",
@@ -52,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AlloyDBOmniMLExtensions.testMlExtensions">
     <configuration name="AlloyDBOmniContainerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testcontainers-alloydb" />
       <extension name="coverage">
@@ -69,8 +78,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlloyDBOmniMLExtensions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testcontainers-alloydb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.abdel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.abdel" />
+      <option name="MAIN_CLASS_NAME" value="dev.abdel.AlloyDBOmniMLExtensions" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlloyDBOmniMLExtensions.testMlExtensions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testcontainers-alloydb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.abdel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.abdel" />
+      <option name="MAIN_CLASS_NAME" value="dev.abdel.AlloyDBOmniMLExtensions" />
+      <option name="METHOD_NAME" value="testMlExtensions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlloyDBOmniMLExtensions.testMlExtensions" />
+        <item itemvalue="JUnit.AlloyDBOmniMLExtensions" />
         <item itemvalue="JUnit.AlloyDBOmniContainerTest.test" />
       </list>
     </recent_temporary>
@@ -91,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739015327147</updated>
-      <workItem from="1739015328168" duration="566000" />
+      <workItem from="1739015328168" duration="9110000" />
     </task>
     <servers />
   </component>
